@@ -4,9 +4,11 @@ Read my research in [here](https://hackmd.io/@D4rUL1eb3rt/HJ3gvnlMC)
 ## Hand On
 Ex1: 
 Make a simple program that run "tasklist" comment two compulsory element is Image Name and PID
+
 Ex2: 
 Develop an application with functionality similar to the 'taskkill' command in Windows. 
 Support two termination methods: terminate process by Image name or by ProcessID. Specify the termination method through parameters passed to the program.
+
 Ex3: 
 Write a program simulating a processing race among 3 threads:
 
