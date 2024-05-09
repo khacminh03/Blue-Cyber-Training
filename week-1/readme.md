@@ -13,10 +13,18 @@ Ex3:
 Write a program simulating a processing race among 3 threads:
 
 Thread 1: Count the number of words in file 1.txt.
+
 Thread 2: Count the number of files in the current directory.
+
 Thread 3: Count the number of threads in the 'explorer.exe' process.
+
 Display on the screen the order of the 3 threads based on their completion time.
+
 For example:
+
 Thread 2: First prize
+
 Thread 1: Second prize
+
 Thread 3: Third prize
+
