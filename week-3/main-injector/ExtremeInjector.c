@@ -7,7 +7,7 @@ int main(int argc, char *argv[]) {
 	HANDLE      hProcess          = NULL;
 	HANDLE      hThread           = NULL;
 	HMODULE     hKernel32         = NULL;
-	wchar_t     dllPath[MAX_PATH] = L"E:\\blue-cyber-re\\week-3\\main-injector\\dllInjector.dll";
+	wchar_t     dllPath[MAX_PATH] = L".\\dllInjector.dll";
 	size_t      pathSize          = sizeof(dllPath);
 	size_t      bytesWritten      = 0;
 
