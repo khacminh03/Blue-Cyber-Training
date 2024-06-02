@@ -3,6 +3,9 @@ Research: Learn about some techiques that malware usually use to achieve persist
 
 ## Hands on
 Ex1: Make a malware can modifying registry keys
+
 Ex2: Make a malware can simulate techninque task scheduler
+
 Ex3: Make a malware can simulate technique dll search order hijacking
+
 Ex4: Make a malware can simulate technique wmi event subscription.
