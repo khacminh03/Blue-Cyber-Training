@@ -1,0 +1,1 @@
+You can read my research in [here](https://cut-lifeboat-494.notion.site/Linux-internals-ae30b80d9ff046b2aae4bddf16486bc3)
