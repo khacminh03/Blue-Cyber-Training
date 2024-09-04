@@ -1,0 +1,21 @@
++-----------------+
+|     Guitar      |
++-----------------+
+| - serialNumber  |
+| - price         |
+| - builder       |
+| - model         |
+| - backWood      |
+| - topWood       |
++-----------------+
+| + createSound() |
++-----------------+
+
++------------------+
+|    Inventory     |
++------------------+
+| - guitars: Guitar[] |
++------------------+
+| + addGuitar(guitar: Guitar): void |
+| + searchGuitar(serialNumber: String): Guitar |
++------------------+
