@@ -1,0 +1,31 @@
+GET và POST là hai phương thức HTTP chính được sử dụng để gửi yêu cầu từ trình duyệt web đến máy chủ. Chúng có những khác biệt quan trọng về cách dữ liệu được gửi và mục đích sử dụng:
+
+GET
+Đặc điểm:
+
+Dữ liệu gửi qua URL: Với phương thức GET, dữ liệu được gửi kèm theo URL dưới dạng các tham số truy vấn (query parameters). Ví dụ:
+
+POST
+Đặc điểm:
+
+Dữ liệu gửi qua thân yêu cầu: Với phương thức POST, dữ liệu được gửi ẩn trong thân yêu cầu HTTP, không hiển thị trên URL. Điều này làm cho POST phù hợp hơn cho việc gửi dữ liệu nhạy cảm hoặc lượng dữ liệu lớn.
+
+
+
+nhiệm vụ 2:
+Ở đây tag script vẫn được nhận, nhưng ký tự “ lại được thêm dấu slashes(\), Nên hiện tại payload có dấu nháy đôi sẽ không thực thi được.sẽ tìm một payload mà không cần dùng đến ”, ’. Ta sẽ dùng phương thức  String.fromCharCode của javascript. Chuyển số dạng số thập phân sang String: alert(String.fromCharCode(88,88,83)) 
+
+
+
+URL Encoding là một quá trình chuyển đổi các ký tự trong URL thành một định dạng mà máy chủ và trình duyệt web có thể hiểu được. Trong URL, chỉ có một số ký tự nhất định được phép sử dụng (như chữ cái, chữ số, và một số ký tự đặc biệt). Những ký tự không hợp lệ trong URL, hoặc những ký tự có ý nghĩa đặc biệt trong ngữ cảnh của URL, cần phải được mã hóa để tránh gây ra các lỗi hoặc hiểu nhầm.
+
+
+
+
+nhiệm vụ 5:
+Đầu vào  được đưa trực tiếp vào chuỗi JSON mà không có bất kỳ xử lý hay mã hóa nào.
+Lý do đoạn java script truyền vào không được thực hiện là do nó đã nằm trong một đoạn mã java cript có sẵn của site đó. Để ý kĩ thấy được để đóng chuỗi var JSONResponseString dùng chuỗi kí tự "}]}';
+
+
+nhiệm vụ 7:
+Sử dụng hàm eval() để thực thi mã JavaScript động.
